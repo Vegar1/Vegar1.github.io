@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>DSMBloggen</title>
+    <style>
+      body {
+        background-color: oldlace;
+        color:black; 
+      }
+      p {
+        width: 400px;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <article>
+      <header>
+        <h1>Første kast</h1>
+        <time datetime="2019-02-08 14:30">8. Februar 2019</time>     
+      </header>
+      <section id="interesting_times">
+        <h2>Et bilde sier mer enn en velloppdragen pike</h2>
+        <p>
+          "May you live in interesting times," er et ordtak - eller en forbannelse - som kan dateres tilbake til britenes tid i Kina på 1930-tallet. 
+        
+        
+        
+        </p>
+        <figure>
+        <img src="../../../../../Pictures/1T/1200px-Unit_circle.svg.png" width="200" alt="Unit Circle" title="Unit Circle">
+        </figure>
+      </section>
+      
+      <section id="google_search">
+        <a href = "https://www.google.com/">Google</a>
+      </section>
+      
+      <section id="fibonacci_numbers">
+      Skriv inn antall steg: <input id="f_steps">
+      <button id="regning">Regn ut</button>
+ 
+      
+      <div id="result"></div>
+ 
+      <script>
+        
+        function fibonacci(a,b) {
+          var c = a + b;
+          return [b, c];
+        }
+              
+      
+        function output() {
+          
+          var steps = document.getElementById('f_steps').value;
+          var i;
+          var f1 = 0;
+          var f2 = 1;
+          for (i = 0; i < steps; i++) {
+            [f1, f2] = fibonacci(f1,f2); 
+            
+          }
+          var steps1 = steps - 1
+          document.getElementById('result').innerHTML = "Fibonacci tall nummer " +steps1+ " og " +steps+ " i rekken er " + f1 + " og " + f2;
+            
+        }
+
+        document.getElementById('regning').addEventListener('click', output);
+      </script>
+      </section>
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    </article>
+    
+  </body>
+</html>
