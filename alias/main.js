@@ -1,4 +1,4 @@
 function randomWord() {
-  var ordliste = ["Stivelse","Energi","Glukose","Plante","Protein","Dyr","Karbohydrat","Fisk","Monosakkarid","Blod","Cellulose","Sukker","Kalori","Organisk","Næringsstoff","Uorganisk","Fett","Insulin","Vitamin","Sportsdrikk","Kostfiber","Sjokolade","Salt","Fotosyntese","Celleånding","Hormon","Enzym","Omega-3","Umettet fett","Mettet fett","D-vitamin","C-vitamin","Tynntarm"];
+  var ordliste = ["Logaritme","Andregradsfunksjon","Infleksjonspunkt","Periferivinkel", "Sentralvinkel", "Korde", "Thalesetningen", "Monotoniegenskaper", "Origo", "Tangent", "Derivasjon", "Krumning", "Ekstremalpunkt", "Definisjonsmengde", "Verdimengde", "Vendepunkt", "Funksjon", "Vekstfart"];
   document.getElementById("alias").innerHTML = ordliste[Math.floor(Math.random() * ordliste.length)];
 }
