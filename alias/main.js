@@ -1,4 +1,4 @@
 function randomWord() {
-  var ordliste = ["Logaritme","Andregradsfunksjon","Infleksjonspunkt","Periferivinkel", "Sentralvinkel", "Korde", "Thalesetningen", "Monotoniegenskaper", "Origo", "Tangent", "Derivasjon", "Krumning", "Ekstremalpunkt", "Definisjonsmengde", "Verdimengde", "Vendepunkt", "Funksjon", "Vekstfart"];
+  var ordliste = ["Kinetisk Energi", "Potensiell Energi", "Mekanisk Energi", "Energi", "Arbeid", "Virkningsgrad", "Effekt", "Joule", "Kraft", "Watt", "Vinkel", "Fart", "Akselerasjon", "Friksjonsarbeid"];
   document.getElementById("alias").innerHTML = ordliste[Math.floor(Math.random() * ordliste.length)];
 }
