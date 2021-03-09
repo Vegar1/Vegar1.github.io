@@ -1,5 +1,4 @@
-var ordliste = ["Kinetisk Energi", "Potensiell Energi", "Mekanisk Energi", "Energi", "Arbeid", "Virkningsgrad", "Effekt", "Joule", "Kraft", "Watt", "Vinkel", "Fart", "Akselerasjon", "Friksjonsarbeid"];
-
+var ordliste = ["Foton", "Frekvens", "Bølgelengde", "UV-stråling", "Radioaktiv Stråling", "Alphastråling", "Betastråling", "Proton", "Nøytron", "Elektron", "Isotop", "Halveringstid", "Energinivå"]
 function randomWordIndependent() {
   document.getElementById("alias").innerHTML = ordliste[Math.floor(Math.random() * ordliste.length)];
 }
