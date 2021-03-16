@@ -1,4 +1,4 @@
-var ordliste = ["Foton", "Bølgelengde", "UV-stråling", "Radioaktiv Stråling", "Tsjernobyl", "Røntgenstråling", "Synlig Lys", "Ioniserende Stråling", "Alfastråling", "Betastråling", "Proton", "Nøytron", "Elektron", "Halveringstid", "Kreft", "Energinivå"]
+var ordliste = ["Farlig Stråling", "Radiobølger", "Varmestråling", "Foton", "Bølgelengde", "UV-stråling", "Radioaktiv Stråling", "Tsjernobyl", "Røntgenstråling", "Synlig Lys", "Ioniserende Stråling", "Alfastråling", "Betastråling", "Proton", "Nøytron", "Elektron", "Halveringstid", "Kreft", "Energinivå"]
 function randomWordIndependent() {
   document.getElementById("alias").innerHTML = ordliste[Math.floor(Math.random() * ordliste.length)];
 }
