@@ -1,4 +1,4 @@
-var ordliste = ["Evolusjon","Genetikk","DNA","Kromosom","Protein","Celledeling","Basepar","Gen","Arv","Genetisk Variasjon","Naturlig Utvalg","Kunstig Utvalg","Epigenetikk","Generasjon","Mutasjon","Krysningsskjema","Genotyp","Fenotyp","Kodominant Arv","Darwin"]
+var ordliste = ["Bøyning","Brytning","Interferens","Amplitude","Periode","Bølgelengde","Frekvens","UV-stråling","Mikrobølger","Røntgenstråling","Lys","Konstruktiv Interferens","Destruktiv Interferens","Stråling","Partikkel","Bølge"]
 function randomWordIndependent() {
   document.getElementById("alias").innerHTML = ordliste[Math.floor(Math.random() * ordliste.length)];
 }
