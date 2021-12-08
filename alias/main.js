@@ -1,4 +1,4 @@
-var ordliste = ["Bøyning","Brytning","Interferens","Amplitude","Periode","Bølgelengde","Frekvens","UV-stråling","Mikrobølger","Røntgenstråling","Lys","Konstruktiv Interferens","Destruktiv Interferens","Stråling","Partikkel","Bølge"]
+var ordliste = [«Atom», «ion», «Proton», «nøytron», «elektron», «Grunnstoff», «periodesystem», «åtteregelen», «Elektronparbinding», «ionebinding», «Polar», «Mettede Hydrokarboner»]
 function randomWordIndependent() {
   document.getElementById("alias").innerHTML = ordliste[Math.floor(Math.random() * ordliste.length)];
 }
