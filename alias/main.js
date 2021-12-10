@@ -1,4 +1,4 @@
-var ordliste = ["ladning","metallbinding","Atom", "ion", "Proton", "nøytron", "elektron", "Grunnstoff", "periodesystem", "åtteregelen", "Elektronparbinding", "ionebinding", "Polar", "Mettede Hydrokarboner"]
+var ordliste = ["hydrogen","oksygen","karbon","ladning","metallbinding","Atom", "ion", "Proton", "nøytron", "elektron", "Grunnstoff", "periodesystem", "åtteregelen", "Elektronparbinding", "ionebinding", "Polar", "Mettede Hydrokarboner"]
 function randomWordIndependent() {
   document.getElementById("alias").innerHTML = ordliste[Math.floor(Math.random() * ordliste.length)];
 }
