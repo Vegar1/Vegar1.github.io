@@ -1,4 +1,4 @@
-var ordliste = ["hydrogen","oksygen","karbon","ladning","metallbinding","Atom", "ion", "Proton", "nøytron", "elektron", "Grunnstoff", "periodesystem", "åtteregelen", "Elektronparbinding", "ionebinding", "Polar", "Mettede Hydrokarboner"]
+var ordliste = ["Arv","Genetisk variasjon","naturlig utvalg","evolusjon","populasjon","mutasjon","utvikling","art","tilpasning","DNA","avl"]
 function randomWordIndependent() {
   document.getElementById("alias").innerHTML = ordliste[Math.floor(Math.random() * ordliste.length)];
 }
