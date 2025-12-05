@@ -1,5 +1,5 @@
 //var ordliste = ["Halveringstid","Røntgenstråling","UV-lys","Infrarødt lys","Mikrobølgestråling","Radiobølger","Bølgelengde","Amplitude","Frekvens","Periode","Gammastråling","Betastråling","Alfastråling","Proton","Elektron","Grunnstoff","Ioniserende stråling","Kosmisk Bakgrunnsstråling","Elektromagnetisk Stråling","Interferens","Brytning","Bøyning","Dopplereffekt","Rødforskyvning"]
-var ordliste = ["Karbohydrat","Monosakkarid","Polysakkarid","Fett","Aminosyre","Protein","Umettet fett","Mettet fett","Karbon","Glukose","Sukker","Stivelse","Essensiell aminosyre","omega-3","kolesterol", "fiber"]
+var ordliste = ["Karbohydrat","Monosakkarid","Polysakkarid","Fett","Aminosyre","Protein","Umettet fett","Mettet fett","Karbon","Glukose","Sukker","Stivelse","Essensiell aminosyre","omega-3","kolesterol", "fiber","Molekyl","Atom","Elektron","Proton","Ionebinding","Elektronparbinding","Kovalent binding","Karbon","Oksygen","Hydrogen","Drivhuseffekt","Karbondioksid","Dihydrogenoksid","Grunnstoff","Åtteregelen","Ion","Dipol","NaCl"]
 function randomWordIndependent() {
   document.getElementById("alias").innerHTML = ordliste[Math.floor(Math.random() * ordliste.length)];
 }
@@ -33,4 +33,5 @@ function randomWordDependent() {
 
 	}
   
+
 
